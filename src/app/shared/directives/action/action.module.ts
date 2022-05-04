@@ -5,8 +5,6 @@ import { ActionDirective } from './action.directive';
 @NgModule({
   declarations: [ActionDirective],
   imports: [CommonModule],
-  exports: [ActionDirective]
+  exports: [ActionDirective],
 })
-export class ActionDirectiveModule {
-
-}
+export class ActionDirectiveModule {}
